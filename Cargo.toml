@@ -1,0 +1,19 @@
+[package]
+name = "fqplot"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "Paired fastq quality, base percent, error rate plot."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bio = "^0.32"
+clap = "^2.33"
+flate2 = "^1"
+plotters = "^0.3.0"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
