@@ -3,7 +3,7 @@ name = "fqplot"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
 edition = "2018"
-description = "Paired fastq quality, base percent, error rate plot."
+description = "Fast paired fastq quality, base percent, error rate plot."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

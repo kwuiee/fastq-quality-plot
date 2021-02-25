@@ -1,15 +1,15 @@
 # fqplot: Fastq Quality plot
 
-Quality, gc, error rate stats and plot form fastq file.
+Quality, gc, error rate stats and plot from fastq files.
 
 ## Getting started
 
 Help message
 
 ```shell
-fqplot
+fqplot 0.1.0
 slyo <sean.lyo@outlook.com>
-Fastq(s) quality, base percent, error rate plotting.
+Fast paired fastq quality, base percent, error rate plot.
 
 USAGE:
     fqplot --prefix <FILE> --read1 <FILE> --read2 <FILE>
@@ -25,6 +25,12 @@ OPTIONS:
 ```
 
 To make it work, font `wqy-zenhei` need installing first. See directory `data`.
+
+Test examples.
+
+```shell
+fqplot -p sample -1 tests/sample_R1.fq.gz -2 tests/sample_R2.fq.gz
+```
 
 ## Todo
 
