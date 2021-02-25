@@ -1,6 +1,6 @@
 # fqplot: Fastq Quality plot
 
-Quality, gc, error rate stats and plot from fastq files.
+Quality, gc, error rate stats and plot from fastq files. Both gzipped and plain text files are supported for read1 and read2 individually.
 
 ## Getting started
 
